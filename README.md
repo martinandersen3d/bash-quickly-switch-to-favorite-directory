@@ -30,4 +30,5 @@ in your .bash_profile, add the lines
 source ~/.bashrc
 ```
 C:\Users\<username>\.bash_profile
+
 C:\Users\<username>\.bashrc
