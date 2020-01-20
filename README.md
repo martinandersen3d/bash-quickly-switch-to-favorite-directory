@@ -4,11 +4,11 @@ bash quickly switch to favorite directory with numbers listing
 There is two commands:
 
 
-```go```
+__```go```__
  list your Favorite directories
 
 
-```go [number]```
+__```go [number]```__
 will go the that directory
 
 
