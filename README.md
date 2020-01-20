@@ -1,5 +1,5 @@
-# .bashrc bash-quickly switch to favorite directory
-bash quickly switch to favorite directory with numbers listing
+# Bash: Quickly switch to your favorite directory
+Quickly switch to favorite directory with numbers listing
 
 There is two commands:
 
