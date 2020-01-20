@@ -1,0 +1,42 @@
+#!/bin/bash
+function go() {
+
+    local dirs=( 
+        "C:/Dropbox"
+        "C:/Windows"
+        "D:/Dev/Expressjs"
+        "D:/Dev/Node_and_Javascript"
+        "D:/Dev/laragon"
+        "D:/Dev/Vue" 
+        "D:/Drive" 
+        "D:/Download" 
+        "D:/Screenshots" 
+    )
+
+    # $1 is the method parameter
+    if [ $1 ]; then
+        # Method parameter is set
+        
+        # $((  )) is math arithmetic
+        local PARAM=$(($1 - 1)) # method paramter, ex: go 3 
+        
+        # Get array item by index
+        local arrayItem=${dirs[$PARAM]}
+
+        local targetPathAsString="cd $arrayItem"
+        echo "$targetPathAsString"
+        $targetPathAsString
+    else
+        # -----------
+        # No method parameters send, will print a list of directories
+        local INDEX=1
+        for i in "${dirs[@]}"
+        do
+            echo "$INDEX  $i"
+             # add 1 to index
+            INDEX=$(($INDEX + 1))
+        done
+        # -----------
+    fi # End if
+}
+
