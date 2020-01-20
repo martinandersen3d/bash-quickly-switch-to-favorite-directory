@@ -5,7 +5,7 @@ There is two commands:
 
 
 ```go```
-will simply list your directorys
+ list your Favorite directories
 
 
 ```go [number]```
@@ -29,3 +29,5 @@ in your .bash_profile, add the lines
 # Read .bashrc
 source ~/.bashrc
 ```
+C:\Users\<username>\.bash_profile
+C:\Users\<username>\.bashrc
